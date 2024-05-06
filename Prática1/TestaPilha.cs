@@ -10,19 +10,50 @@ namespace ExemploPilha
     {
         static void Main(string[] args)
         {
-            /* Ler 10 números e imprimí-los na ordem inversa */
-            Pilha p = new Pilha(10);
+            Pilha p = new Pilha(100);
             while(!p.Cheia())
             {
-                Console.Write("Digite um nº: ");
+                Console.Write("Digite um numero ou operador: ");
                 int num = Convert.ToInt32(Console.ReadLine());
-                p.Empilhar(num);
-            }
-            Console.WriteLine("Valores na ordem inversa:");
-            while(!p.Vazia())
-            {
-                int num = p.Desempilhar();
-                Console.WriteLine(num);
+                string s = Console.ReadLine();
+                bool result = int.TryParse(a, out num);
+                if (result)
+                   p.Empilhar(num);
+                if (s == "+")
+                {
+                    int a = p.Desempilhar();
+                    int b = p.Desempilhar();
+                    int c = a + b;
+                    Console.WriteLine(c);
+                      p.Empilhar(c);
+                }
+
+                else if (s == "/")
+                {
+                    int a = p.Desempilhar();
+                    int b = p.Desempilhar();
+                    int c = a / b;
+                    Console.WriteLine(c);
+                      p.Empilhar(c);
+                }
+
+                else if (s == "*")
+                {
+                    int a = p.Desempilhar();
+                    int b = p.Desempilhar();
+                    int c = a * b;
+                    Console.WriteLine(c);
+                      p.Empilhar(c);
+                }
+
+                 else if (s == "*")
+                {
+                    int a = p.Desempilhar();
+                    int b = p.Desempilhar();
+                    int c = a - b;
+                    Console.WriteLine(c);
+                      p.Empilhar(c);
+                 }
             }
             Console.ReadKey();
         }
