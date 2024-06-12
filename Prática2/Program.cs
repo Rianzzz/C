@@ -12,27 +12,85 @@ namespace Pratica_02
     {
         static void Main(string[] args)
         {
-            Queue ped = new Queue(100);
-            Queue pag = new Queue(100);
-            Queue enc = new Queue(100);
-            int opcao;
-            int codcli=0;
+            Queue ped = new Queue(20);
+            Queue pag = new Queue(20);
+            Queue enc = new Queue(20);
+            int opcao = 0;
+            int codcli = 0;
             do
             {
-                Console.WriteLine("1 - Inserção de cliente na fila de pedidos\r\n2 - Remoção de cliente da fila de pedidos\r\n3 - Remoção de cliente da fila de pagamentos\r\n4 - Remoção de cliente da fila de encomendas\r\n5 - Sair");
+                menu():
+                Console.WriteLine("Opcao: ")
                 opcao = int.Parse(Console.ReadLine());
 
                 switch (opcao)
                 {
                     case 1:
                         codcli++;
-                        for (int num; num) ;
+                        Console.WriteLine("Cliente " + codcli + " entrou na fila de pedidos.\n");
+                        ped.Enfileirar(codcli);
                         break;
 
+                    case 2:
+                        if(ped.Vazia())
+                        {
+                            Console.WriteLine("Fila de pedido vazia");
+                        }  
+                        else
+                        {
+                            int removeCliente = ped.Desenfileirar();
+                            Console.WriteLine("Cliente " + removeCliente + " foi removido da fila de pedidos e entrou na de pagamentos\n");
+                            pag.Enfileirar(removeCliente);
+                        }
+                        break;
+                        
+                    case 3:
+                        if (pag.Vazia()) 
+                        {
+                            Console.WriteLine("Fila de pagamento vazia");
+                        }
+                        else
+                        {
+                            int removePagamento = pag.Desenfileirar();
+                            Console.WriteLine("Cliente " + removePagamento + " foi removido da fila de pagamentos e entrou na de encomendas\n");
+                            enc.Enfileirar(removePagamento);
+                        }
+                        break;
+                        
+                    case 4:
+                        if(enc.Vazia())
+                        {
+                            Console.WriteLine("Fila de encomenda vazia"); 
+                        }
+                        else
+                        {
+                            Console.WriteLine("Cliente " + encomenda.Desenfileirar() + " foi removido da fila de encomendas.\n");
+                        }
+                        break;
+
+                    case 5:
+                        opcao = 5;
+                        break; 
                 }
-            }
+
+                Console.WriteLine("\n");
+
+            } while (opcao != 5); 
+
+
+
+        }
+
+        static void menu()
+        {
+            Console.WriteLine("1 - Inserção de cliente na fila de pedidos");
+            Console.WriteLine("2 - Remoção de cliente da fila de pedidos");
+            Console.WriteLine("3 - Remoção de cliente da fila de pagamnetos");
+            Console.WriteLine("4 - Remoção de cliente da fila de encomendas");
+            Console.WriteLine("5 - Sair");
         }
     }
 }
+                 
 
 
