@@ -1,0 +1,28 @@
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+H:\Visual Studio 2022\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Rian\Desktop\RIAN NOTES\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
