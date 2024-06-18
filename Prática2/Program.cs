@@ -12,9 +12,9 @@ namespace Pratica_02
     {
         static void Main(string[] args)
         {
-            Queue ped = new Queue(20);
-            Queue pag = new Queue(20);
-            Queue enc = new Queue(20);
+            Fila ped = new Fila(20);
+            Fila pag = new Fila(20);
+            Fila enc = new Fila(20);
             int opcao = 0;
             int codcli = 0;
             do
